@@ -12,7 +12,7 @@ const Select: React.FC<SelectProps> = ({ icon: Icon, children, ...rest }) => (
   <Container>
     {Icon && <Icon size={20} />}
     {children}
-    <select {...rest} >
+    <select  {...rest} >
       <option value="Produtor">Produtor</option>
       <option value="Beneficiaro">Beneficiaro</option>
       <option value="Fornecedor">Fornecedor</option>

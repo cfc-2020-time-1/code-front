@@ -20,9 +20,7 @@ export const Container = styled.div`
     flex: 1;
     background: transparent;
     border: 0;
-    color: #666360;
-
-    
+    color: #666360; 
   }
 
   select::after {

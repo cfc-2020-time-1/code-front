@@ -25,7 +25,7 @@ const SignUp: React.FC = () => (
             placeholder="Senha" 
           />
 
-          <Select name="categoria" icon={FiMousePointer}/>
+          <Select name="categoria" icon={FiMousePointer} />
 
           <Button type="submit">Cadastrar</Button>
         </form>
